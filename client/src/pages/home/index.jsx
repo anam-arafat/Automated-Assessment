@@ -28,7 +28,7 @@ function Home(userDetails) {
     };
 
     const handleLogout = () => {
-        window.open(`${process.env.REACT_APP_API_URL}/auth/logout`, "_self");
+        window.open(`https://auto-assess.onrender.com/auth/logout`, "_self");
     };
 
     const handleUpload = async (e) => {
