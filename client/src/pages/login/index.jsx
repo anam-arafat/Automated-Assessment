@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 function Login() {
 	const googleAuth = () => {
 		window.open(
-			`${process.env.REACT_APP_API_URL}/auth/google/callback`,
+			`https://auto-assess.onrender.com/auth/google/callback`,
 			"_self"
 		);
 	};
